@@ -33,4 +33,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    // OkHttp3
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'com.squareup.okio:okio:1.8.0'
+// Retrofit
+    api 'com.squareup.retrofit2:retrofit:2.7.0'
+// Gson 服务器数据交互
+    api 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
 }
