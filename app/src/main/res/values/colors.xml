@@ -4,5 +4,13 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="mainThemeColor">#009688</color>
+    <color name="mainDisableColor">#2A009688</color>
+    <color name ="textMainColor">#333333</color>
+    <color name ="textSubColor">#666666</color>
+    <color name ="textDescColor">#999999</color>
+    <color name ="textWhiteMainColor">#ffffff</color>
     <color name ="borderShadowColor">#909595</color>
+    <color name ="unselectedColor">#515151</color>
+
+
 </resources>
