@@ -5,20 +5,22 @@ package com.example.travelfriends.data.model;
  */
 public class LoggedInUser {
 
-    private String username;
-    private String password;
+    private String userName;
+    private String passWord;
+    private String nickName;
+    private String signature;
 
 
     public LoggedInUser(String userId, String displayName) {
-        this.username = userId;
-        this.password = displayName;
+        this.userName = userId;
+        this.passWord = displayName;
     }
 
     public String getUserName() {
-        return username;
+        return userName;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPassWord() {
+        return passWord;
     }
 }
